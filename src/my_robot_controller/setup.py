@@ -29,6 +29,7 @@ setup(
             "draw_circle = my_robot_controller.draw_circle:main",
             "mapping = my_robot_controller.mapping:main",
             "navigation = my_robot_controller.navigation:main",
+            "car_nav = my_robot_controller.aw_navigation:main"
         ],
     },
 )
