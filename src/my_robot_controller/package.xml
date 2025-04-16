@@ -4,14 +4,16 @@
   <name>my_robot_controller</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="gevirk@taltech.ee">autolab</maintainer>
+  <maintainer email="student@todo.todo">student</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>
-  <depend>sensor_msgs</depend> 
-  <exec_depend>ros2launch</exec_depend>
+  <depend>sensor_msgs</depend>
   <depend>turtlesim</depend>
+  <exec_depend>ros2launch</exec_depend>
+  <depend>nav_msgs</depend>
+  
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
